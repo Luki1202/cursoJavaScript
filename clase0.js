@@ -80,3 +80,4 @@ resultado = (parseInt(numeroA) + parseInt(numeroB));
 
 alert("El resultado de la suma es: " + resultado);
 
+//JAVASCRIPT
