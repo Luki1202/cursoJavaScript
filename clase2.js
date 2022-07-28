@@ -10,23 +10,23 @@
     //Si no se cumple (ELSE), haz esto otro
 
     //EJEMPLOS
-    let edad;
+   // let edad;
 
-    edad = prompt("Ingrese su edad");
+   // edad = prompt("Ingrese su edad");
 
-    if (edad > 17){
-       console.log("Eres mayor de edad");
-    } else {
-       console.log("Eres menor de edad");
-    }
+   // if (edad > 17){
+   //    console.log("Eres mayor de edad");
+   // } else {
+   //    console.log("Eres menor de edad");
+   // }
 
-   let nombreUsuario = prompt("Ingresar nombre de usuario");
+   //let nombreUsuario = prompt("Ingresar nombre de usuario");
 
-   if (nombreUsuario == "") {
-        alert("Por favor ingresa un nombre de usuario valido");
-   } else {
-    alert("Nombre de usuario ingresado " + nombreUsuario);
-   }
+   //if (nombreUsuario == "") {
+    //    alert("Por favor ingresa un nombre de usuario valido");
+   //} else {
+    //alert("Nombre de usuario ingresado " + nombreUsuario);
+   //}
 
    //CONDICIONES ANIDADAS IF - ELSE - IF - ELSE
    //EJEMPLO
@@ -36,19 +36,19 @@
    //Buenas tardes 12hs - 18hs
    //Buenas noches 19hs - 23hs
 
-   let hora;
+  // let hora;
 
-   hora = prompt("Ingresar hora -formato 24hs-") ;
+  // hora = prompt("Ingresar hora -formato 24hs-") ;
 
-   if (hora >= 0 && hora <= 5) {
-    console.log("Dejame dormir " + nombreUsuario);
-   } else if (hora >= 6 && hora <= 11) {
-    console.log("Buenos dias " + nombreUsuario);
-   } else if (hora >= 12 && hora <= 18) {
-    console.log("Buenas tardes "+ nombreUsuario);
-   } else {
-    console.log("Buenas noches " + nombreUsuario);
-   }
+  // if (hora >= 0 && hora <= 5) {
+   // console.log("Dejame dormir " + nombreUsuario);
+   //} else if (hora >= 6 && hora <= 11) {
+   // console.log("Buenos dias " + nombreUsuario);
+   //} else if (hora >= 12 && hora <= 18) {
+   // console.log("Buenas tardes "+ nombreUsuario);
+   //} else {
+   // console.log("Buenas noches " + nombreUsuario);
+   //}
 
    //VALORES BOOLEANOS
    //Estos pueden ser TRUE o FALSE
@@ -82,35 +82,35 @@
 
     //CONDICIONES COMPUESTAS CON &&
     //Sera requisito que todas las comparaciones sean verdaderas para que la condicion compuesta sea verdadera
-    let nombreI = prompt("Ingresar nombre");
-    let apellidoI = prompt("Ingresar apellido");
+    //let nombreI = prompt("Ingresar nombre");
+    //let apellidoI = prompt("Ingresar apellido");
 
-    if ((nombreI != "") && (apellidoI != "")){
-        alert("Nombre: " + nombreI + " Apellido: " + apellidoI);
-    } else {
-        alert("Error: Ingresar nombre y apellido");
-    }
+    //if ((nombreI != "") && (apellidoI != "")){
+    //    alert("Nombre: " + nombreI + " Apellido: " + apellidoI);
+    //} else {
+    //    alert("Error: Ingresar nombre y apellido");
+    //}
 
     //CONDICIONES COMPUESTAS CON ||
     //Sera requisito que al menos una de las comparaciones sea verdadera para que la condicion compuesta sea verdadera
     //let ejemploA = prompt("Ingresar nombre");
 
-    if ((ejemploA == "LUCAS") || (ejemploA == "lucas")){
-        alert("El nombre ingresado es Lucas");
-    } else {
-        alert("El nombre ingresado NO ES Lucas");
-    }
+    //if ((ejemploA == "LUCAS") || (ejemploA == "lucas")){
+     //   alert("El nombre ingresado es Lucas");
+    //} else {
+     //   alert("El nombre ingresado NO ES Lucas");
+    //}
 
     //COMBINACION DE OPERADORES && y ||
     //Es posible combinar ||(OR) y &&(AND) para hacer comparaciones cada vez mas complejas
 
-    let usuarioIngresado = prompt("Ingresar nombre");
+    //let usuarioIngresado = prompt("Ingresar nombre");
 
-    if ((usuarioIngresado != "") && ((usuarioIngresado === "LUCAS") || (usuarioIngresado === "lucas"))){
-        alert("Hola Lucas");
-    } else {
-        alert("Error: Ingresar nombre valido");
-    }
+    //if ((usuarioIngresado != "") && ((usuarioIngresado === "LUCAS") || (usuarioIngresado === "lucas"))){
+     //   alert("Hola Lucas");
+    //} else {
+     //   alert("Error: Ingresar nombre valido");
+    //}
 
     //Las expresiones logicas son evaluadas de izquierda a derecha
     //Es necesario agrupar las operaciones para asegurar que se cumpla como uno lo desea

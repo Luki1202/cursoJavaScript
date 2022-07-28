@@ -19,13 +19,13 @@
 
     //EJEMPLO
 
-    /*for (let i = 0; i < 10; i++){
-        alert(i);
-    }
+    //for (let i = 0; i < 10; i++){
+    //    alert(i);
+    //}
 
-    for (let b = 1; b <= 10; b++){
-        alert(b);
-    }*/
+    //for (let b = 1; b <= 10; b++){
+    //    alert(b);
+    //}*/
 
     //EJEMPLO APLICANDO FOR : TABLAS
 
@@ -105,20 +105,20 @@
 
     //EJEMPLO APLICANDO WHILE Y SWITCH: ENTRADAS
     
-    let entrada = prompt("Ingresar un nombre");
+   // let entrada = prompt("Ingresar un nombre");
     //Repetimos hasta que se ingresa "ESC"
-        while(entrada != "ESC" ) {
-            switch (entrada) {
-                case "ANA":
-                    alert("HOLA ANA");
-                    break;
-                case "JUAN":
-                    alert("HOLA JUAN");
-                    break;
-                default:
-                    alert("¿QUIEN SOS?")
-                    break;
-            }
-            entrada = prompt("Ingresar un nombre");
-        }
+    //    while(entrada != "ESC" ) {
+    //        switch (entrada) {
+    //            case "ANA":
+    //                alert("HOLA ANA");
+    //                break;
+    //            case "JUAN":
+    //                alert("HOLA JUAN");
+    //                break;
+    //            default:
+    //                alert("¿QUIEN SOS?")
+    //                break;
+    //       }
+    //        entrada = prompt("Ingresar un nombre");
+    //    }
 

@@ -18,7 +18,7 @@
 
             //EJEMPLOS
 
-    let apellidoA //esto es correcto
+    //let apellidoA //esto es correcto
 
         /*
         let año //NO USAR CARACTERES ESPECIALES CON LA Ñ
@@ -28,7 +28,7 @@
 //CONST
     //const de constante, dato que nunca cambia.
     //Como por ejemplo PI
-        const pi = 3.1416;
+    //    const pi = 3.1416;
 
     //Al ser un dato constante, quiere decir que NO se puede cambiar
     //No se puede pisarlo como LET, porque el navegador no te va a dejar avanzar
@@ -44,9 +44,9 @@
     //NUMBER
         /*Un valor numerico puede ser entero (5) o decimal (3.15).*/
         //EJEMPLO
-        let a = 2 ;
-        /*let numberB = newNumber(1);*/
-        let b = 7.19;
+     //   let a = 2 ;
+    //let numberB = newNumber(1);
+     //   let b = 7.19;
 
         /*INGRESANDO console.log(numberC.toFixed(1)); LE ORDENO A LA CONSOLA MOSTRAR UN SOLO DECIMAL*/
 
@@ -54,16 +54,16 @@
         /*Un STRING (Cadena de texto) es un valor compuesto por uno o mas caracteres, definido entre comillas simples('') o
     dobles ("").*/
         //EJEMPLO
-        let nombre = 'Lucas';
-        let apellido = 'Garcia';
+       // let nombre = 'Lucas';
+       // let apellido = 'Garcia';
 
         //CONCATENACION
-        let saludoA = "Hola mi nombre es " + nombre + " " + apellido + ".";
+       // let saludoA = "Hola mi nombre es " + nombre + " " + apellido + ".";
 
         //TEMPLATE STRING (INTERPOLACION DE VARIABLES)
-        let saludoB = 'Hola soy ${nombre} ${apellido}';
+       // let saludoB = 'Hola soy ${nombre} ${apellido}';
 
-        let confirmar = confirm("¿Desea formatear su disco?");
+       // let confirmar = confirm("¿Desea formatear su disco?");
 
 //ASIGNACION
     //En una variable podemos asignar distintos tipos de valores mediante el operador de asignacion (=)
@@ -87,33 +87,32 @@
 
     //EJEMPLO DE OPERACIONES
 
-    let numeroA = 1;
-    let numeroB = 2;
-    let numeroC = 3;
+   // let numeroA = 1;
+   // let numeroB = 2;
+   // let numeroC = 3;
 
     //SUMA 
-    let resultadoSuma = numeroA + numeroB;
+   // let resultadoSuma = numeroA + numeroB;
     //RESTA
-    let resultadoResta = numeroB - numeroA;
+   // let resultadoResta = numeroB - numeroA;
     //PRODUCTO DE DOS NUMEROS
-    let resultadoProducto = numeroB * numeroC;
-
+   // let resultadoProducto = numeroB * numeroC;
 //PROMPT()
     //prompt() muestra un cuadro de dialogo donde el usuario debera ingresar un dato
     //Se puede poner un mensaje sobre el campo de texto
     //El valor que devuelve es una cadena que representa lo que el usuario ingreso
     //Al valor que se ingresa se lo llama ENTRADA
 
-    let nombreIngresado = prompt("Ingrese su nombre para ser hackeado");
+   // let nombreIngresado = prompt("Ingrese su nombre para ser hackeado");
 
 //CONSOLE
     //console.log() muestra el mensaje que pasemos como parametro a la consola JavaScript
 
-    let muestraConsola = "Soy un consolelog";
-    console.log(muestraConsola);
+   // let muestraConsola = "Soy un consolelog";
+   // console.log(muestraConsola);
 
 //ALERT
     //alert() muestra una ventana sobre la pagina web, mostrando el mensaje que pasemos como parametro
     //Al valor que mostramos se lo llama SALIDA
 
-    alert("¡Hola soy un alert!");
+   // alert("¡Hola soy un alert!");
